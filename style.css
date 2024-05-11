@@ -1,0 +1,27 @@
+.container {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.game-btns {
+  max-width: 158px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.game-btns button {
+  height: 53px;
+  width: 53px;
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid white;
+  background: black;
+  color: #fff;
+}
+
+#result {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+}
